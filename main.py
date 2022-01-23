@@ -13,6 +13,7 @@ class Server(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(bytes(file_to_open, 'utf-8'))
 
+
 if __name__ == '__main__':
     httpd = HTTPServer(('localhost', 8080), Server)
     httpd.serve_forever()
