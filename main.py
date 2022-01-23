@@ -16,3 +16,4 @@ class Server(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     httpd = HTTPServer(('localhost', 8080), Server)
     httpd.serve_forever()
+    print('Server is running')
