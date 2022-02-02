@@ -1,1 +1,1 @@
-Just a simple local Web Server with python
+Very basic Local webserver in Python
